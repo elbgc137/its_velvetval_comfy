@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "=== Descargando modelos en la ruta correcta de RunPod ==="
+echo "=== Descargando modelos durante Build ==="
 
 cd /workspace/runpod-slim/ComfyUI/models
 
@@ -17,4 +17,4 @@ wget -q --show-progress -O vae/ae.safetensors \
 wget -q --show-progress -O loras/lenovo_z.safetensors \
   "https://huggingface.co/Danrisi/Lenovo_UltraReal_Z_Image/resolve/main/lenovo_z.safetensors?download=true"
 
-echo "=== Modelos listos en la carpeta correcta ==="
+echo "=== Modelos baked-in correctamente ==="
